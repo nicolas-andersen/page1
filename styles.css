@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+* {
+  color: white;
+  font-optical-sizing: auto;
+  font-family: 'Noto Sans';
+  font-weight: 100;
+}
+
 body {
   background-color: black;
 }
-h,p {
-  color: white;
+
+p {
+  font-size:  16px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.main {
+  margin: auto;
+  width: 600px;
 }
